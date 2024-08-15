@@ -38,7 +38,7 @@ public class clsDataConnection
     private string GetConnectionString()
     {
         // Connection string for the local .mdf database file
-        return $@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\github\Skeleton1\Skeleton1\SumanDB.mdf;Integrated Security=True;Connect Timeout=30";
+        return $@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=ADD_DATABASE_PATH_HERE(SumanDB.mdf);Integrated Security=True;Connect Timeout=30";
     }
 
 

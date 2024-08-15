@@ -38,7 +38,6 @@ namespace ClassLibrary
         private DateTime mDeliveryDate;
         private bool mDeliveryStaus;
         private string mOrderDescription;
-        private int mStaffID;
 
         public Double TotalAmount
         {
